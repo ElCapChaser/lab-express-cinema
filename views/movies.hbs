@@ -1,0 +1,8 @@
+{{#each movies}}
+    <a href="/movies/{{_id}}">
+        {{title}}, 
+        {{!-- only show the first star --}}
+        {{stars.[0]}}
+        <br>
+    </a>
+{{/each}}
